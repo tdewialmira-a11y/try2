@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+<script>
+function checkPassword(){
+let pass=document.getElementById("password").value;
+
+if(pass==="bara29"){
+window.location="love.html";
+}else{
+window.location="wrong.html";
+}
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="box"></div>
+
+<div class="title">ENTER YOUR PASSWORD</div>
+
+<input type="password" id="password" class="inputBox" placeholder="HERE">
+
+<button onclick="checkPassword()">OPEN</button>
+
+</body>
+</html>
